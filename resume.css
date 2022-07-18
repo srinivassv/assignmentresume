@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 230, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.full{
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(232, 234, 236);
+    display: grid;
+    grid-template-columns:  2fr 4fr ;
+}
+
+.left{
+        position:initial;
+        background-color: rgb(138, 167, 171);
+        padding: 20px;             
+}
+
+.right {
+        position: initial;
+        background-color: rgb(191, 206, 162);
+        padding: 20px;            
+}
+
+.image, .contact, .skills, .languages, .summary, .experience, .education, .projects{
+
+    margin-bottom: 20px;
+}
+
+.h2{
+    text-decoration:line-through;
+}
